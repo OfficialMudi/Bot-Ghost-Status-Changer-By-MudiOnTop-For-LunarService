@@ -1,12 +1,10 @@
 /**        
-  GIT : https://github.com/MudiOnToppe/Bot-Ghost-Status-Changer-By-MudiOnTop
-  All My Socials : https://linktr.ee/mudiontop
-  Twitch : https://www.twitch.tv/mudiontop
+  GIT : https://github.com/OfficialMudi
+  All My Socials : https://guns.lol/mudi.official
  * **********************************************
- *   Code by MudiOnTop
+ *   Code by MudiOfficial
  * **********************************************
  */
-
 
 
 const { Client, GatewayIntentBits, ActivityType, TextChannel } = require('discord.js');
@@ -22,15 +20,15 @@ const client = new Client({
 const app = express();
 const port = 3000;
 app.get('/', (req, res) => {
-  res.send('Lo Status Del Tuo Bot E Cambiato!✨');
+  res.send('The Status Of Your Bot Changed!✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Giocando A: discord.gg/lunarservice`);
-  console.log(`🔗 Powered By MudiOnTop`);
+  console.log(`🔗 Playing: discord.gg/LunarService`);
+  console.log(`🔗 Powered By MudiOfficial`);
 });
 
 
-const statusMessages = ["🤖Bot Lunar🤖","🔥Lunar Service🔥","🔗.gg/lunarservice🔗","👑Best Shop👑","😈Bot Made By Mudi😈"];
+const statusMessages = ["🤖Lunar Service Bot🤖","🔗.gg/LunarService🔗","👑Best Shop👑","💫Bot Made By Mudi💫"];
 
 
 let currentIndex = 0;
@@ -47,11 +45,10 @@ async function login() {
 }
 
 /**        
-  GIT : https://github.com/MudiOnToppe/Bot-Ghost-Status-Changer-By-MudiOnTop
-  All My Socials : https://linktr.ee/mudiontop
-  Twitch : https://www.twitch.tv/mudiontop
+  GIT : https://github.com/OfficialMudi
+  All My Socials : https://guns.lol/mudi.official
  * **********************************************
- *   Code by MudiOnTop
+ *   Code by MudiOfficial
  * **********************************************
  */
 
@@ -79,9 +76,9 @@ function updateStatusAndSendMessages() {
 }
 
 client.once('ready', () => {
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Il Bot E Pronto Come: ${client.user.tag}`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Your Bot Is Ready As: ${client.user.tag}`);
   console.log(`\x1b[36m%s\x1b[0m`, `|    ❤️Thank's For Using Code`);
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨Made By MudiOnTop`);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ✨Made By MudiOfficial`);
   updateStatusAndSendMessages();
 
   setInterval(() => {
@@ -92,10 +89,9 @@ client.once('ready', () => {
 login();
 
 /**        
-  GIT : https://github.com/MudiOnToppe/Bot-Ghost-Status-Changer-By-MudiOnTop
-  All My Socials : https://linktr.ee/mudiontop
-  Twitch : https://www.twitch.tv/mudiontop
+  GIT : https://github.com/OfficialMudi
+  All My Socials : https://guns.lol/mudi.official
  * **********************************************
- *   Code by MudiOnTop
+ *   Code by MudiOfficial
  * **********************************************
  */
